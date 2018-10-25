@@ -1,0 +1,18 @@
+{
+  "name": "Webpack prebuild Lokalise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Manuel Palma",
+  "license": "MIT LICENSE",
+  "scripts": {
+     extract: "./node_modules/webpack/bin/webpack.js --config ./webpack.config.js"
+  },
+  "keywords": ["Lokalise", "Webpack", "i18n"],
+  "devDependencies": {
+     "axios": "^0.18.0",
+     "webpack": "^4.4.1",
+     "webpack-cli": "^2.0.13",
+     "webpack-shell-plugin": "^0.5.0",
+  }
+}
